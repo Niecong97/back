@@ -1,0 +1,38 @@
+
+/*方形*/
+.search-normal .el-input-group__prepend {
+  border-radius: 0;
+}
+
+/*圆角*/
+.search-radius .el-input-group__prepend {
+  border-radius: 4px 0 0 4px;
+}
+
+.search-radius .el-input__inner {
+  border-radius: 0 4px 4px 0;
+}
+/*圆弧*/
+
+.search-round .el-input-group__prepend {
+  border-radius: 30px 0 0 30px;
+}
+
+.search-round .el-input__inner {
+  border-radius: 0 30px 30px 0;
+}
+
+
+
+.search-left .el-input__inner {
+  text-align: left;
+}
+
+.search-center .el-input__inner {
+  text-align: center;
+}
+
+.search-right .el-input__inner {
+  text-align: right;
+}
+
